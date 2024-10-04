@@ -15,18 +15,6 @@ function Citacao({ texto, autor }) {
         <p>{traducao ? traducao : texto}</p>
         <footer className="blockquote-footer">{autor}</footer>
       </blockquote>
-      {/* <button
-        className="btn btn-primary m-1"
-        onClick={() => traduzirCitação("en")}
-      >
-        Traduzir para Inglês
-      </button>
-      <button
-        className="btn btn-secondary m-1"
-        onClick={() => traduzirCitação("es")}
-      >
-        Traduzir para Espanhol
-      </button> */}
     </div>
   );
 }
